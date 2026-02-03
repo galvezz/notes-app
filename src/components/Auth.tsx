@@ -59,7 +59,7 @@ export default function Auth({ onAuthSuccess }: AuthProps) {
               )}
             </div>
             <h1 className="text-3xl font-bold text-white">
-              {isLogin ? 'Bienvenido' : 'Crear Cuenta'}
+              Mi Super Diario de Notas 🚀
             </h1>
             <p className="text-indigo-100 mt-2">
               {isLogin 
