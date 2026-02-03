@@ -113,7 +113,7 @@ export default function Notas({ onLogout }: NotasProps) {
                 <StickyNote className="w-7 h-7 text-white" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold text-gray-800">Mis Notas</h1>
+                <h1 className="text-2xl font-bold text-gray-800">Mi Super Diario de Notas 🚀</h1>
                 <div className="flex items-center gap-2 text-gray-500 text-sm">
                   <User className="w-4 h-4" />
                   <span>{userEmail}</span>
@@ -158,7 +158,7 @@ export default function Notas({ onLogout }: NotasProps) {
               <button
                 type="submit"
                 disabled={!nuevaNota.trim() || isSubmitting}
-                className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg font-medium hover:from-indigo-700 hover:to-purple-700 focus:ring-4 focus:ring-indigo-300 transition-all disabled:opacity-70 disabled:cursor-not-allowed"
+                className="flex items-center gap-2 px-6 py-2.5 bg-fuchsia-600 text-white rounded-lg font-medium hover:bg-fuchsia-500 focus:ring-4 focus:ring-fuchsia-300 transition-all disabled:opacity-70 disabled:cursor-not-allowed shadow-lg shadow-fuchsia-500/50"
               >
                 {isSubmitting ? (
                   <>
